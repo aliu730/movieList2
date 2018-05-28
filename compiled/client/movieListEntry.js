@@ -1,0 +1,10 @@
+"use strict";
+
+var MovieListEntry = function MovieListEntry(props) {
+  return React.createElement(
+    "div",
+    null,
+    props.movie.title
+  );
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2NsaWVudC9tb3ZpZUxpc3RFbnRyeS5qc3giXSwibmFtZXMiOlsiTW92aWVMaXN0RW50cnkiLCJwcm9wcyIsIm1vdmllIiwidGl0bGUiXSwibWFwcGluZ3MiOiI7O0FBQUEsSUFBSUEsaUJBQWlCLFNBQWpCQSxjQUFpQixDQUFDQyxLQUFELEVBQVc7QUFDOUIsU0FDRTtBQUFBO0FBQUE7QUFBTUEsVUFBTUMsS0FBTixDQUFZQztBQUFsQixHQURGO0FBR0QsQ0FKRCIsImZpbGUiOiJtb3ZpZUxpc3RFbnRyeS5qcyIsInNvdXJjZXNDb250ZW50IjpbInZhciBNb3ZpZUxpc3RFbnRyeSA9IChwcm9wcykgPT4ge1xuICByZXR1cm4gKFxuICAgIDxkaXY+e3Byb3BzLm1vdmllLnRpdGxlfTwvZGl2PlxuICApXG59Il19
