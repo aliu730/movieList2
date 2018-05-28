@@ -4,12 +4,7 @@ var SearchBar = function SearchBar(props) {
   return React.createElement(
     "div",
     { className: "searchBar" },
-    React.createElement("input", { type: "text", onChange: props.textChange }),
-    React.createElement(
-      "button",
-      { type: "submit" },
-      "Add"
-    )
+    React.createElement("input", { type: "text", onChange: props.textChange, placeholder: "search" })
   );
 };
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2NsaWVudC9zZWFyY2hCYXIuanN4Il0sIm5hbWVzIjpbIlNlYXJjaEJhciIsInByb3BzIiwidGV4dENoYW5nZSJdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFJQSxZQUFZLFNBQVpBLFNBQVksQ0FBQ0MsS0FBRCxFQUFXO0FBQ3pCLFNBQ0U7QUFBQTtBQUFBLE1BQUssV0FBVSxXQUFmO0FBQ0UsbUNBQU8sTUFBSyxNQUFaLEVBQW1CLFVBQVVBLE1BQU1DLFVBQW5DLEdBREY7QUFFRTtBQUFBO0FBQUEsUUFBUSxNQUFLLFFBQWI7QUFBQTtBQUFBO0FBRkYsR0FERjtBQU1ELENBUEQiLCJmaWxlIjoic2VhcmNoQmFyLmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIFNlYXJjaEJhciA9IChwcm9wcykgPT4ge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwic2VhcmNoQmFyXCI+XG4gICAgICA8aW5wdXQgdHlwZT1cInRleHRcIiBvbkNoYW5nZT17cHJvcHMudGV4dENoYW5nZX0gLz5cbiAgICAgIDxidXR0b24gdHlwZT1cInN1Ym1pdFwiPkFkZDwvYnV0dG9uPlxuICAgIDwvZGl2PlxuICApXG59Il19
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2NsaWVudC9zZWFyY2hCYXIuanN4Il0sIm5hbWVzIjpbIlNlYXJjaEJhciIsInByb3BzIiwidGV4dENoYW5nZSJdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFJQSxZQUFZLFNBQVpBLFNBQVksQ0FBQ0MsS0FBRCxFQUFXO0FBQ3pCLFNBQ0U7QUFBQTtBQUFBLE1BQUssV0FBVSxXQUFmO0FBQ0UsbUNBQU8sTUFBSyxNQUFaLEVBQW1CLFVBQVVBLE1BQU1DLFVBQW5DLEVBQStDLGFBQVksUUFBM0Q7QUFERixHQURGO0FBS0QsQ0FORCIsImZpbGUiOiJzZWFyY2hCYXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJ2YXIgU2VhcmNoQmFyID0gKHByb3BzKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJzZWFyY2hCYXJcIj5cbiAgICAgIDxpbnB1dCB0eXBlPVwidGV4dFwiIG9uQ2hhbmdlPXtwcm9wcy50ZXh0Q2hhbmdlfSBwbGFjZWhvbGRlcj1cInNlYXJjaFwiLz5cbiAgICA8L2Rpdj5cbiAgKVxufSJdfQ==

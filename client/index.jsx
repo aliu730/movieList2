@@ -4,7 +4,7 @@ class App extends React.Component { // renders everything.
     this.state = {
       list: movies,
       tempList: movies,
-      query: "",
+      queryAdd: "",
     };
   }
   onTextChange (event) {
@@ -18,13 +18,27 @@ class App extends React.Component { // renders everything.
       tempList: newList,
     });
   }
+  onTextChangeAdd (event) {
+    this.setState({
+      queryAdd: event.target.value,
+    });
+  }
+  onClickAdd () {
+    var title = {title: this.state.queryAdd};
+    var addList = this.state.list;
+    addList.push(title); 
+    this.setState({
+      tempList: addList,
+    });
+        // console.log(this.state.tempList);
+  }
   render() {
     return ( 
       <div>
         <h1>MovieList2s</h1>
         <SearchBar textChange={this.onTextChange.bind(this)}/> 
-        <MovieList movies={this.state.tempList}/>
-        
+        <AddBar clicker={this.onClickAdd.bind(this)} textChangeAdd={this.onTextChangeAdd.bind(this)} />
+        <MovieList movies={this.state.tempList} />
       </div> 
     )
   } 
